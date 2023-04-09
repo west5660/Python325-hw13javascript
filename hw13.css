@@ -1,0 +1,114 @@
+body{
+    background-color: #d4e3fa;
+}
+
+#div1{
+    border: solid 5px black;
+     box-sizing: border-box;
+      text-align: center;
+    margin-top: 1%;
+    width: 30%;
+    height: 300px;
+    padding-top: 50px;
+    background-color: #0e86e7;
+}
+
+#div2{
+    border: solid 5px black;
+     box-sizing: border-box;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+     padding-top: 50px;
+    background-color: #497fb6;
+}
+
+#div3{
+    border: solid 5px black;
+     box-sizing: border-box;
+        text-align: center;
+    width: 30%;
+    height: 300px;
+     padding-top: 50px;
+    background-color: #6593b7;
+}
+#divgame{
+    border: solid 5px black;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 50%;
+    height: 500px;
+    align-content: center;
+
+}
+#divgame1{
+    border: solid 5px black;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+   display: inline-block;
+}
+#divgame2{
+    border: solid 5px black;
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 15%;
+}
+#divgame3{
+    display: inline-block;
+    margin-top: 50px;
+}
+#divgame4{
+    float: right;
+    margin-right: 20px;
+
+}
+#butgame4{
+     margin-top: 70px;
+
+}
+#div123{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#divgame111, #divgame112, #divgame113{
+     display: inline-block;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.img{
+    transition: transform 5s;
+    transform: rotate(360deg);
+}
+
+#but5, #but55, #but555{
+    background-color: #2db64b;
+    color: white;
+    font-size: 24px;
+}
+#but6, #but66, #but666{
+    background-color: #cc1d1d;
+    color: white;
+    font-size: 24px;
+}
+#but1, #but11, #but111{
+    background-color: rgba(162, 201, 198, 0.5);
+    color: white;
+    font-size: 24px;
+}
+button:hover {
+    background-color: #b6aa29;
+}
